@@ -1,4 +1,14 @@
+Réponses sur le .gitignore : 
+
 __pycache__/ --> Le cache de python
 *.pyc --> Les fichiers compilés de python
 .venv/ --> Le dossier de l'environnement virtuel
 env/ --> Un autre dossier d'environnement virtuel
+
+
+À quel moment faut-il créer un ?
+Le plus tôt possible dans le projet, le mieux c'est au début du projet.
+Que fait exactement l’option --cached ?
+Cela permet de retirer le fichier de github s'il est présent au début.
+Que se passerait-il sans ?
+il reste meme s'il est dans le .gitignore
