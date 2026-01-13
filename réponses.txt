@@ -9,6 +9,14 @@ pourquoi ils ne devraient pas être suivis par git ?
 Parce qu'ils sont générés automatiquement et peuvent être recréés facilement. Ils peuvent aussi contenir des informations spécifiques à une machine qui ne sont pas pertinentes pour les autres machines.
 Ce sont aussi des fichiers volumineux qui peuvent alourdir le dépôt git inutilement.
 
+Partie : 'Observez' 
+
+- Les fichiers sont toujours présents dans le dépôt git même après avoir été ajoutés au .gitignore. Parce qu'ils ont déjà été suivis par git avant d'être ajoutés au .gitignore. Le .gitignore empêche seulement git de suivre de nouveaux fichiers ou modifications, mais il ne supprime pas les fichiers déjà suivis.
+- Ils apparaissent toujours dans VSCode. 
+- Dans l'explorateur de fichiers, ils sont toujours présents car le .gitignore n'affecte pas la visibilité des fichiers dans le système de fichiers, seulement dans git.
+- Dans l'ongler 'Source Control' de VSCode, ils apparaissent toujours car git continue de les suivre.
+
+
 À quel moment faut-il créer un ?
 Le plus tôt possible dans le projet, le mieux c'est au début du projet.
 Que fait exactement l’option --cached ?
