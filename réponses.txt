@@ -1,10 +1,13 @@
 Réponses sur le .gitignore : 
 
+À quoi servent les fichiers suivants ?
 __pycache__/ --> Le cache de python
 *.pyc --> Les fichiers compilés de python
 .venv/ --> Le dossier de l'environnement virtuel
 env/ --> Un autre dossier d'environnement virtuel
-
+pourquoi ils ne devraient pas être suivis par git ?
+Parce qu'ils sont générés automatiquement et peuvent être recréés facilement. Ils peuvent aussi contenir des informations spécifiques à une machine qui ne sont pas pertinentes pour les autres machines.
+Ce sont aussi des fichiers volumineux qui peuvent alourdir le dépôt git inutilement.
 
 À quel moment faut-il créer un ?
 Le plus tôt possible dans le projet, le mieux c'est au début du projet.
