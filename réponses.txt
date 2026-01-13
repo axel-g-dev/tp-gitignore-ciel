@@ -1,0 +1,4 @@
+__pycache__/ --> Le cache de python
+*.pyc --> Les fichiers compilés de python
+.venv/ --> Le dossier de l'environnement virtuel
+env/ --> Un autre dossier d'environnement virtuel
