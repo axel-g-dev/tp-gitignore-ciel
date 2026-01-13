@@ -1,0 +1,4 @@
+# Dossiers exclus :
+__pycache__
+.streamlit
+
